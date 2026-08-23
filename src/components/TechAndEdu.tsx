@@ -13,10 +13,10 @@ export function TechAndEdu() {
             <FadeIn>
               <div className="mb-10">
                 <h2 className="text-2xl font-semibold tracking-tight text-slate-900 flex items-center gap-3">
-                  <Monitor className="text-purple-400" />
+                  <Monitor className="text-blue-400" />
                   Aviation Systems & Technology
                 </h2>
-                <div className="h-1 w-12 bg-purple-600 mt-4 rounded-full" />
+                <div className="h-1 w-12 bg-blue-600 mt-4 rounded-full" />
               </div>
             </FadeIn>
             
@@ -30,7 +30,7 @@ export function TechAndEdu() {
                   "Digital Office Automation Tools"
                 ].map((sys, idx) => (
                   <li key={idx} className="flex items-center gap-3 bg-white p-4 rounded-xl border border-slate-200">
-                    <div className="w-2 h-2 rounded-full bg-purple-500 shrink-0" />
+                    <div className="w-2 h-2 rounded-full bg-blue-500 shrink-0" />
                     <span className="font-medium text-slate-700">{sys}</span>
                   </li>
                 ))}
@@ -43,10 +43,10 @@ export function TechAndEdu() {
             <FadeIn>
               <div className="mb-10">
                 <h2 className="text-2xl font-semibold tracking-tight text-slate-900 flex items-center gap-3">
-                  <GraduationCap className="text-purple-400" />
+                  <GraduationCap className="text-blue-400" />
                   Education
                 </h2>
-                <div className="h-1 w-12 bg-purple-600 mt-4 rounded-full" />
+                <div className="h-1 w-12 bg-blue-600 mt-4 rounded-full" />
               </div>
             </FadeIn>
             
@@ -56,7 +56,7 @@ export function TechAndEdu() {
                   <GraduationCap size={100} />
                 </div>
                 <h3 className="text-xl font-bold text-slate-900 mb-2 relative z-10">Bachelor of Business Administration (BBA)</h3>
-                <p className="text-purple-500 font-medium mb-4 relative z-10">Major in Finance</p>
+                <p className="text-blue-500 font-medium mb-4 relative z-10">Major in Finance</p>
                 <p className="text-slate-600 relative z-10">Northern University Bangladesh</p>
               </div>
             </FadeIn>

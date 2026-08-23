@@ -30,7 +30,7 @@ export function Navbar() {
     >
       <div className="container mx-auto px-6 max-w-7xl flex items-center justify-between">
         <a href="#home" className="text-xl font-bold tracking-tight text-slate-900 z-50">
-          M. Junayed <span className="text-purple-400">Hossain</span>
+          M. Junayed <span className="text-blue-400">Hossain</span>
         </a>
 
         {/* Desktop Nav */}
@@ -39,7 +39,7 @@ export function Navbar() {
             <a 
               key={link.label} 
               href={link.href}
-              className="text-sm font-medium text-slate-600 hover:text-purple-400 transition-colors"
+              className="text-sm font-medium text-slate-600 hover:text-blue-400 transition-colors"
             >
               {link.label}
             </a>
@@ -74,7 +74,7 @@ export function Navbar() {
                 <a 
                   key={link.label} 
                   href={link.href}
-                  className="text-2xl font-medium text-slate-900 hover:text-purple-400 transition-colors"
+                  className="text-2xl font-medium text-slate-900 hover:text-blue-400 transition-colors"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   {link.label}

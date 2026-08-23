@@ -40,7 +40,7 @@ export function About() {
           <div className="grid sm:grid-cols-2 gap-6">
             {highlights.map((item, index) => (
               <FadeIn key={item.label} delay={0.1 * (index + 1)} className="bg-slate-50 p-6 rounded-2xl border border-slate-100">
-                <div className="w-12 h-12 bg-white rounded-xl shadow-sm border border-slate-100 flex items-center justify-center text-purple-400 mb-4">
+                <div className="w-12 h-12 bg-white rounded-xl shadow-sm border border-slate-100 flex items-center justify-center text-blue-400 mb-4">
                   <item.icon size={24} />
                 </div>
                 <h3 className="font-semibold text-slate-900 mb-2">{item.label}</h3>

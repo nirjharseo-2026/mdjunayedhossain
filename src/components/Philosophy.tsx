@@ -18,7 +18,7 @@ export function Philosophy() {
       <div className="container mx-auto px-6 max-w-5xl relative z-10 text-center">
         <FadeIn>
           <h2 className="text-3xl md:text-5xl font-bold tracking-tight mb-12 text-white">
-            "Safe Operations. <span className="text-purple-300">Strong Teams.</span> Exceptional Service."
+            "Safe Operations. <span className="text-blue-300">Strong Teams.</span> Exceptional Service."
           </h2>
         </FadeIn>
         

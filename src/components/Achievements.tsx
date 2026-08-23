@@ -20,14 +20,14 @@ export function Achievements() {
         <FadeIn>
           <div className="mb-16 max-w-3xl">
             <h2 className="text-3xl md:text-4xl font-semibold tracking-tight text-white mb-4">Professional Achievements</h2>
-            <div className="h-1 w-20 bg-purple-500 mt-6 rounded-full" />
+            <div className="h-1 w-20 bg-blue-500 mt-6 rounded-full" />
           </div>
         </FadeIn>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-6">
           {ACHIEVEMENTS.map((item, index) => (
             <FadeIn key={index} delay={0.05 * index} className="bg-slate-800 p-6 rounded-2xl border border-slate-700">
-              <Award className="text-purple-300 mb-4" size={24} />
+              <Award className="text-blue-300 mb-4" size={24} />
               <div className="text-sm font-mono text-slate-400 mb-2">{item.year}</div>
               <h3 className="font-medium text-slate-100 leading-snug">{item.title}</h3>
             </FadeIn>

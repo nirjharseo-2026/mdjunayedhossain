@@ -55,11 +55,11 @@ export function CareerTimeline() {
           {CAREER_DATA.map((job, index) => (
             <FadeIn key={index} delay={0.1 * index} className="mb-12 relative pl-8 md:pl-12 last:mb-0">
               {/* Timeline dot */}
-              <div className="absolute -left-[9px] top-1.5 w-4 h-4 rounded-full bg-white border-4 border-purple-600 shadow-sm" />
+              <div className="absolute -left-[9px] top-1.5 w-4 h-4 rounded-full bg-white border-4 border-blue-600 shadow-sm" />
               
               <div className="flex flex-col md:flex-row md:items-baseline md:justify-between mb-2">
                 <h3 className="text-xl font-semibold text-slate-900">{job.role}</h3>
-                <span className="text-sm font-medium text-purple-500 bg-purple-50 px-3 py-1 rounded-full mt-2 md:mt-0 w-fit">
+                <span className="text-sm font-medium text-blue-500 bg-blue-50 px-3 py-1 rounded-full mt-2 md:mt-0 w-fit">
                   {job.date}
                 </span>
               </div>

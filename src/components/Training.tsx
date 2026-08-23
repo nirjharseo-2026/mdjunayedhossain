@@ -32,7 +32,7 @@ export function Training() {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
           {TRAINING_ITEMS.map((item, index) => (
             <FadeIn key={index} delay={0.05 * (index % 6)} className="flex items-start gap-3 p-4 bg-white rounded-xl border border-slate-200">
-              <BookOpen size={20} className="text-purple-400 shrink-0 mt-0.5" />
+              <BookOpen size={20} className="text-blue-400 shrink-0 mt-0.5" />
               <span className="text-sm text-slate-700 font-medium leading-relaxed">{item}</span>
             </FadeIn>
           ))}

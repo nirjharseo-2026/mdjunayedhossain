@@ -55,7 +55,7 @@ export function Services() {
               delay={0.1 * (index % 4)} 
               className="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 hover:shadow-md transition-shadow group flex flex-col"
             >
-              <div className="text-purple-400/30 text-4xl font-bold font-mono mb-4 group-hover:text-purple-400 transition-colors">
+              <div className="text-blue-400/30 text-4xl font-bold font-mono mb-4 group-hover:text-blue-400 transition-colors">
                 0{index + 1}
               </div>
               <h3 className="text-lg font-semibold text-slate-900 mb-3">{service.title}</h3>

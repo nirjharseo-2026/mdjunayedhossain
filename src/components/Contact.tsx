@@ -32,7 +32,7 @@ export function Contact() {
             href="https://www.linkedin.com/in/muhammad-junayed-hossain-6378b7214" 
             target="_blank"
             rel="noopener noreferrer"
-            className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-4 bg-purple-50 text-purple-500 font-medium rounded-xl hover:bg-purple-100 transition-colors"
+            className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-4 bg-blue-50 text-blue-500 font-medium rounded-xl hover:bg-blue-100 transition-colors"
           >
             <Linkedin size={20} />
             LinkedIn Profile

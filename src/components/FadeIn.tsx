@@ -1,11 +1,12 @@
 import { motion } from 'motion/react';
-import { ReactNode } from 'react';
+import { ReactNode, Key } from 'react';
 
 interface FadeInProps {
   children: ReactNode;
   delay?: number;
   direction?: 'up' | 'down' | 'left' | 'right' | 'none';
   className?: string;
+  key?: Key;
 }
 
 export function FadeIn({ children, delay = 0, direction = 'up', className = '' }: FadeInProps) {

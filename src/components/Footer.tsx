@@ -12,12 +12,12 @@ export function Footer() {
           </div>
           
           <div className="flex flex-wrap justify-center gap-6 text-sm font-medium text-slate-600">
-            <a href="#home" className="hover:text-purple-400 transition-colors">Home</a>
-            <a href="#about" className="hover:text-purple-400 transition-colors">About</a>
-            <a href="#services" className="hover:text-purple-400 transition-colors">Services</a>
-            <a href="#experience" className="hover:text-purple-400 transition-colors">Experience</a>
-            <a href="#contact" className="hover:text-purple-400 transition-colors">Contact</a>
-            <a href="https://www.linkedin.com/in/muhammad-junayed-hossain-6378b7214" target="_blank" rel="noopener noreferrer" className="hover:text-purple-400 transition-colors">LinkedIn</a>
+            <a href="#home" className="hover:text-blue-400 transition-colors">Home</a>
+            <a href="#about" className="hover:text-blue-400 transition-colors">About</a>
+            <a href="#services" className="hover:text-blue-400 transition-colors">Services</a>
+            <a href="#experience" className="hover:text-blue-400 transition-colors">Experience</a>
+            <a href="#contact" className="hover:text-blue-400 transition-colors">Contact</a>
+            <a href="https://www.linkedin.com/in/muhammad-junayed-hossain-6378b7214" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition-colors">LinkedIn</a>
           </div>
           
         </div>

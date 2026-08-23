@@ -23,27 +23,21 @@ export function Hero() {
       <div className="container mx-auto px-6 max-w-7xl relative z-10 py-12">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-8 items-center">
           <div className="max-w-3xl">
-            <FadeIn>
-              <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-purple-100/50 border border-purple-200 text-purple-600 text-sm font-medium mb-8">
-                <PlaneTakeoff size={16} />
-                <span>Aviation Operations & Airport Services Professional</span>
-              </div>
-            </FadeIn>
+            <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-blue-100/50 border border-blue-200 text-blue-600 text-sm font-medium mb-8">
+              <PlaneTakeoff size={16} />
+              <span>Aviation Operations & Airport Services Professional</span>
+            </div>
             
-            <FadeIn delay={0.1}>
-              <h1 className="text-3xl min-[400px]:text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold tracking-tight text-slate-900 leading-[1.1] mb-6">
-                <span className="block whitespace-nowrap">Efficient & Exceptional</span>
-                <span className="block text-purple-400 whitespace-nowrap">Airport Operations.</span>
-              </h1>
-            </FadeIn>
+            <h1 className="text-3xl min-[400px]:text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold tracking-tight text-slate-900 leading-[1.1] mb-6">
+              <span className="block whitespace-nowrap">Efficient & Exceptional</span>
+              <span className="block text-blue-400 whitespace-nowrap">Airport Operations.</span>
+            </h1>
             
-            <FadeIn delay={0.2}>
-              <p className="text-lg md:text-xl text-slate-600 mb-10 max-w-2xl leading-relaxed">
-                Experienced aviation professional specializing in airport operations, flight handling, customer service, safety compliance, team leadership and aviation workforce development.
-              </p>
-            </FadeIn>
+            <p className="text-lg md:text-xl text-slate-600 mb-10 max-w-2xl leading-relaxed">
+              Experienced aviation professional specializing in airport operations, flight handling, customer service, safety compliance, team leadership and aviation workforce development.
+            </p>
             
-            <FadeIn delay={0.3} className="flex flex-wrap items-center gap-4">
+            <div className="flex flex-wrap items-center gap-4">
               <a 
                 href="#services" 
                 className="inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-slate-900 text-white font-medium rounded-lg hover:bg-slate-800 transition-colors shadow-sm"
@@ -57,7 +51,7 @@ export function Hero() {
               >
                 Get in Touch
               </a>
-            </FadeIn>
+            </div>
           </div>
 
           <FadeIn delay={0.4} className="relative hidden lg:flex justify-end lg:pl-10">
@@ -73,11 +67,11 @@ export function Hero() {
             </div>
             
             {/* Decorative abstract elements behind the image */}
-            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[110%] h-[110%] bg-purple-100/60 rounded-full blur-3xl -z-10" />
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[110%] h-[110%] bg-blue-100/60 rounded-full blur-3xl -z-10" />
             
             {/* Experience Badge */}
             <div className="absolute -bottom-6 -left-6 bg-white p-4 rounded-2xl shadow-xl border border-slate-100 flex items-center gap-4 animate-[bounce_3s_ease-in-out_infinite]">
-              <div className="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center text-purple-400 font-bold text-xl">
+              <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center text-blue-400 font-bold text-xl">
                 15+
               </div>
               <div>

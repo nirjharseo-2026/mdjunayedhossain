@@ -35,7 +35,7 @@ export function Expertise() {
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {EXPERTISE.map((item, index) => (
             <FadeIn key={item.label} delay={0.05 * (index % 4)} className="flex flex-col items-center text-center p-6 bg-slate-50 rounded-2xl border border-slate-100">
-              <div className="w-12 h-12 bg-white rounded-xl shadow-sm flex items-center justify-center text-purple-400 mb-4">
+              <div className="w-12 h-12 bg-white rounded-xl shadow-sm flex items-center justify-center text-blue-400 mb-4">
                 <item.icon size={24} />
               </div>
               <span className="font-medium text-slate-800">{item.label}</span>
