@@ -31,9 +31,9 @@ export function Hero() {
             </FadeIn>
             
             <FadeIn delay={0.1}>
-              <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold tracking-tight text-slate-900 leading-[1.1] mb-6">
-                <span className="block">Efficient & Exceptional</span>
-                <span className="block text-purple-400">Airport Operations.</span>
+              <h1 className="text-3xl min-[400px]:text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold tracking-tight text-slate-900 leading-[1.1] mb-6">
+                <span className="block whitespace-nowrap">Efficient & Exceptional</span>
+                <span className="block text-purple-400 whitespace-nowrap">Airport Operations.</span>
               </h1>
             </FadeIn>
             
