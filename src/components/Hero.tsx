@@ -31,8 +31,9 @@ export function Hero() {
             </FadeIn>
             
             <FadeIn delay={0.1}>
-              <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight text-slate-900 leading-[1.1] mb-6">
-                Efficient & Exceptional <span className="text-purple-400">Airport Operations.</span>
+              <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold tracking-tight text-slate-900 leading-[1.1] mb-6">
+                <span className="block">Efficient & Exceptional</span>
+                <span className="block text-purple-400">Airport Operations.</span>
               </h1>
             </FadeIn>
             
@@ -60,12 +61,12 @@ export function Hero() {
           </div>
 
           <FadeIn delay={0.4} className="relative hidden lg:flex justify-end lg:pl-10">
-            <div className="relative w-full max-w-[440px] aspect-[4/5] rounded-3xl overflow-hidden shadow-2xl bg-slate-200 group border-4 border-white">
+            <div className="relative w-full max-w-[440px] rounded-3xl overflow-hidden shadow-2xl bg-white group border-4 border-white">
               {/* Note: You can replace this src with an actual photo of Muhammad Junayed Hossain */}
               <img 
-                src="https://images.unsplash.com/photo-1556388158-158ea5ccacbd?q=80&w=2070&auto=format&fit=crop" 
-                alt="Aviation Professional" 
-                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                src="https://trwvchuwlicymvveabmt.supabase.co/storage/v1/object/public/mdjunayedhossain/junayedhossain.jpeg" 
+                alt="Muhammad Junayed Hossain" 
+                className="w-full h-auto block object-cover transition-transform duration-700 group-hover:scale-105"
               />
               <div className="absolute inset-0 ring-1 ring-inset ring-slate-900/10 rounded-3xl pointer-events-none" />
               <div className="absolute inset-0 bg-gradient-to-tr from-slate-900/20 to-transparent mix-blend-overlay pointer-events-none" />
