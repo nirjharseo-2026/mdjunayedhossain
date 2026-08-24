@@ -30,7 +30,7 @@ export function Navbar() {
     >
       <div className="container mx-auto px-6 max-w-7xl flex items-center justify-between">
         <a href="#home" className="text-xl font-bold tracking-tight text-slate-900 z-50">
-          MD. Junayed <span className="text-blue-400">Hossain</span>
+          Muhammad Junayed <span className="text-blue-400">Hossain</span>
         </a>
 
         {/* Desktop Nav */}
