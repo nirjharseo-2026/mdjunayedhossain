@@ -1,4 +1,3 @@
-import { FadeIn } from './FadeIn';
 import { ArrowRight, PlaneTakeoff } from 'lucide-react';
 
 export function Hero() {
@@ -54,8 +53,8 @@ export function Hero() {
             </div>
           </div>
 
-          <FadeIn delay={0.4} className="relative hidden lg:flex justify-end lg:pl-10">
-            <div className="relative w-full max-w-[440px] rounded-3xl overflow-hidden shadow-2xl bg-white group border-4 border-white">
+          <div className="relative flex justify-center lg:justify-end lg:pl-10 mt-6 lg:mt-0">
+            <div className="relative w-full max-w-[320px] sm:max-w-[400px] lg:max-w-[440px] rounded-3xl overflow-hidden shadow-2xl bg-white group border-4 border-white">
               {/* Note: You can replace this src with an actual photo of Muhammad Junayed Hossain */}
               <img 
                 src="https://trwvchuwlicymvveabmt.supabase.co/storage/v1/object/public/mdjunayedhossain/junayedhossain.jpeg" 
@@ -70,16 +69,16 @@ export function Hero() {
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[110%] h-[110%] bg-blue-100/60 rounded-full blur-3xl -z-10" />
             
             {/* Experience Badge */}
-            <div className="absolute -bottom-6 -left-6 bg-white p-4 rounded-2xl shadow-xl border border-slate-100 flex items-center gap-4 animate-[bounce_3s_ease-in-out_infinite]">
-              <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center text-blue-400 font-bold text-xl">
+            <div className="absolute -bottom-4 sm:-bottom-6 left-2 sm:-left-6 bg-white p-3 sm:p-4 rounded-2xl shadow-xl border border-slate-100 flex items-center gap-3 sm:gap-4">
+              <div className="w-10 h-10 sm:w-12 sm:h-12 bg-blue-100 rounded-full flex items-center justify-center text-blue-500 font-bold text-lg sm:text-xl shrink-0">
                 15+
               </div>
               <div>
-                <p className="text-sm font-bold text-slate-900">Years Experience</p>
-                <p className="text-xs text-slate-500">In Aviation Industry</p>
+                <p className="text-xs sm:text-sm font-bold text-slate-900">Years Experience</p>
+                <p className="text-[10px] sm:text-xs text-slate-500">In Aviation Industry</p>
               </div>
             </div>
-          </FadeIn>
+          </div>
         </div>
       </div>
     </section>
